@@ -50,11 +50,10 @@ example:
 
 ### 1. Move your backup folder to your home directory (~) 
 
-Transfer your backup folder to your new Arch system in your home directory (~) using USB, external drive, or cloud storage.
-
 ### 2. Run the restore script
 
 ```bash
+cd ~
 chmod +x restore-arch-setup.sh
 ./restore-arch-setup.sh
 ```
