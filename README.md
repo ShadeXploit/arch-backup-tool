@@ -31,7 +31,7 @@ A simple Bash script to back up your **Arch Linux user environment** — perfect
 
 ```bash
 cd ~
-git clone https://github.com/shadexploit/arch-user-backup.git
+git clone https://github.com/ShadeXploit/arch-backup-tool.git
 cd arch-user-backup
 ````
 
@@ -96,6 +96,5 @@ MIT License — free to use, modify, and distribute.
 
 ## ✨ Author
 
-Made with ❤️ by [Shade](https://github.com/shadexploit)
-
+Made with ❤️ by [Shade](https://github.com/ShadeXploit)
 ---
