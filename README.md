@@ -56,6 +56,7 @@ example:
 ### 1. Move your backup folder to your home directory (~) 
 
 ### 2. Run the restore script
+Before executing the script, rename your backup folder to "arch-backup-restore" this allows the script to locate and retrieve your data properly.
 
 ```bash
 cd ~
