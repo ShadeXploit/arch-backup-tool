@@ -21,9 +21,9 @@ Perfect for saving and restoring your Arch user environment after a fresh instal
 ## 🔧 How to Use
 
 ### 📥 1. Clone the repo
-
-  git clone https://github.com/your-username/arch-user-backup.git
-  cd arch-user-backup
+  ```bash
+  git clone https://github.com/shadexploit/arch-user-backup.git
+  cd arch-user-backup```
 
 ### 📥 2. Run the backup script
 
