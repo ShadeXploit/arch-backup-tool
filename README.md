@@ -25,6 +25,7 @@ This script backs up your configurations, dotfiles, installed packages (includin
 ### 📥 1. Clone the Repository
 
 ```bash
+cd ~
 git clone https://github.com/shadexploit/arch-user-backup.git
 cd arch-user-backup
 ````
@@ -36,8 +37,9 @@ chmod +x backup-arch-setup.sh
 ./backup-arch-setup.sh
 ```
 
-🗂️ This will create a backup folder like:
-
+**🗂️ This script will create a backup folder in your home directory (~):**
+feel free to move this file into a safe place using USB, external drive, or cloud storage.
+example:
 ```
 ~/arch-backup-20250519-150000
 ```
@@ -46,9 +48,9 @@ chmod +x backup-arch-setup.sh
 
 ## 🔁 Restore After a Fresh Install
 
-### 1. Move your backup folder to your $HOME 
+### 1. Move your backup folder to your home directory (~) 
 
-Transfer your backup folder to your new Arch system in your $HOME directory using USB, external drive, or cloud storage.
+Transfer your backup folder to your new Arch system in your home directory (~) using USB, external drive, or cloud storage.
 
 ### 2. Run the restore script
 
