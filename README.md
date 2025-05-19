@@ -7,7 +7,7 @@ A simple Bash script to back up your **Arch Linux user environment** — perfect
 ## 📦 Features
 
 
-✅**backs up everything except the base OS**
+✅ **backs up everything except the base OS**
 
 📁 Saves backups to a **timestamped** folder  
 
