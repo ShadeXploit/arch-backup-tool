@@ -39,7 +39,7 @@ chmod +x backup-arch-setup.sh
 🗂️ This will create a backup folder like:
 
 ```
-~/downloads/arch-backup-20250519-150000
+~/arch-backup-20250519-150000
 ```
 
 ---
