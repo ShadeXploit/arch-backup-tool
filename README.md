@@ -15,8 +15,11 @@ A simple Bash script to back up your **Arch Linux user environment** — perfect
 - configurations
 - dotfiles
 -installed packages (including AUR)
+
 📁 Saves backups to a **timestamped** folder  
+
 🔁 Includes an easy restore script
+
 ✅**backs up everything except the base OS**
 
 ---
