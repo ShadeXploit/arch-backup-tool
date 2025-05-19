@@ -2,8 +2,6 @@
 
 A simple Bash script to back up your **Arch Linux user environment** — perfect for saving and restoring your setup after a fresh install.
 
-This script backs up your configurations, dotfiles, installed packages (including AUR), and other personal settings — **everything except the base OS**.
-
 ---
 
 ## 📦 Features
@@ -14,9 +12,12 @@ This script backs up your configurations, dotfiles, installed packages (includin
 - Fonts, icons, and themes  
 - SSH and GPG keys  
 - A list of all installed packages (Pacman + AUR)
-
+- configurations
+- dotfiles
+-installed packages (including AUR)
 📁 Saves backups to a **timestamped** folder  
 🔁 Includes an easy restore script
+✅**backs up everything except the base OS**
 
 ---
 
