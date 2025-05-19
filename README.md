@@ -22,16 +22,16 @@ Perfect for saving and restoring your Arch user environment after a fresh instal
 
 ### 📥 1. Clone the repo
 
-git clone https://github.com/your-username/arch-user-backup.git
-cd arch-user-backup
+  git clone https://github.com/your-username/arch-user-backup.git
+  cd arch-user-backup
 
 ### 📥 2. Run the backup script
 
-chmod +x backup-arch-setup.sh
-./backup-arch-setup.sh
+  chmod +x backup-arch-setup.sh
+  ./backup-arch-setup.sh
 
-This will create a folder like:
-~/downloads/arch-backup-20250519-150000
+  This will create a folder like:
+  ~/downloads/arch-backup-20250519-150000
 
 ---
 
@@ -40,8 +40,9 @@ This will create a folder like:
 # Move your backup folder to your new Arch system (e.g., via USB or cloud).
 
 # Run the restore script:
-chmod +x restore-arch-setup.sh
-./restore-arch-setup.sh
+
+  chmod +x restore-arch-setup.sh
+  ./restore-arch-setup.sh
 
 
 ---
@@ -50,11 +51,11 @@ chmod +x restore-arch-setup.sh
 
 **This backup includes sensitive data like:**
 
-    SSH private keys
+   SSH private keys
 
-    GPG keyring
+   PGP keyring
 
-    Possibly Wi-Fi credentials
+  Possibly Wi-Fi credentials
 
 **Make sure to store the backup securely (e.g., encrypt it before uploading to the cloud).**
 
@@ -62,24 +63,24 @@ chmod +x restore-arch-setup.sh
 
 **💡 Future Ideas (Contributions Welcome!)**
 
-    Optional encryption/compression of the backup
+  Optional encryption/compression of the backup
 
-    Automatically restore AUR packages
+  Automatically restore AUR packages
 
-    GUI wrapper or TUI version
+  GUI wrapper or TUI version
 
-    Systemd service for scheduled backups
+  Systemd service for scheduled backups
 
 ---
     
 **📜 License**
 
-MIT License — free to use, modify, and share.
+  MIT License — free to use, modify, and share.
 
 ---
 
 **✨ Author**
 
-Made with love by Shade 💻
+  Made with love by Shade 💻
 
 
