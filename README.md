@@ -46,9 +46,9 @@ chmod +x backup-arch-setup.sh
 
 ## 🔁 Restore After a Fresh Install
 
-### 1. Move your backup folder
+### 1. Move your backup folder to your $HOME 
 
-Transfer your backup folder to your new Arch system using USB, external drive, or cloud storage.
+Transfer your backup folder to your new Arch system in your $HOME directory using USB, external drive, or cloud storage.
 
 ### 2. Run the restore script
 
