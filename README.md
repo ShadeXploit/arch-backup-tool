@@ -7,6 +7,7 @@ This script backs up your configurations, dotfiles, installed packages (includin
 ---
 
 ## 📦 Features
+
 ✅ Backs up:
 - `~/.config/` and `~/.local/` directories  
 - Dotfiles like `.bashrc`, `.zshrc`, `.profile`, etc.  
