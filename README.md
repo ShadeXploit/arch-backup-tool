@@ -1,86 +1,95 @@
-# arch-backup-tool
-A simple Bash script designed to back up your entire Arch Linux user environment. It allows you to easily save and restore your dotfiles, configurations, and installed packages (including AUR) - everything *except* the OS itself.
+# 🛠️ arch-backup-tool
 
-Perfect for saving and restoring your Arch user environment after a fresh install.
+A simple Bash script to back up your **Arch Linux user environment** — perfect for saving and restoring your setup after a fresh install.
+
+This script backs up your configurations, dotfiles, installed packages (including AUR), and other personal settings — **everything except the base OS**.
 
 ---
 
 ## 📦 Features
 
-- Backups:
-  - `~/.config/` and `~/.local/` folders
-  - Dotfiles like `.bashrc`, `.zshrc`, `.profile`, etc.
-  - Fonts, icons, and themes
-  - SSH and GPG keys
-  - A list of all installed packages (Pacman + AUR)
-- Saves backups in a timestamped folder
-- Easy restoration with a separate script
+✅ Backs up:
+- `~/.config/` and `~/.local/` directories  
+- Dotfiles like `.bashrc`, `.zshrc`, `.profile`, etc.  
+- Fonts, icons, and themes  
+- SSH and GPG keys  
+- A list of all installed packages (Pacman + AUR)
+
+📁 Saves backups to a **timestamped** folder  
+🔁 Includes an easy restore script
 
 ---
 
 ## 🔧 How to Use
 
-### 📥 1. Clone the repo
-  ```bash
-  git clone https://github.com/shadexploit/arch-user-backup.git
-  cd arch-user-backup```
+### 📥 1. Clone the Repository
 
-### 📥 2. Run the backup script
+```bash
+git clone https://github.com/shadexploit/arch-user-backup.git
+cd arch-user-backup
+````
 
-  chmod +x backup-arch-setup.sh
-  ./backup-arch-setup.sh
+### 📦 2. Run the Backup Script
 
-  This will create a folder like:
-  ~/downloads/arch-backup-20250519-150000
+```bash
+chmod +x backup-arch-setup.sh
+./backup-arch-setup.sh
+```
 
----
+🗂️ This will create a backup folder like:
 
-### 🔁 How to Restore
-
-# Move your backup folder to your new Arch system (e.g., via USB or cloud).
-
-# Run the restore script:
-
-  chmod +x restore-arch-setup.sh
-  ./restore-arch-setup.sh
-
+```
+~/downloads/arch-backup-20250519-150000
+```
 
 ---
 
-**🔐 Security Note**
+## 🔁 Restore After a Fresh Install
 
-**This backup includes sensitive data like:**
+### 1. Move your backup folder
 
-   SSH private keys
+Transfer your backup folder to your new Arch system using USB, external drive, or cloud storage.
 
-   PGP keyring
+### 2. Run the restore script
 
-  Possibly Wi-Fi credentials
-
-**Make sure to store the backup securely (e.g., encrypt it before uploading to the cloud).**
-
----
-
-**💡 Future Ideas (Contributions Welcome!)**
-
-  Optional encryption/compression of the backup
-
-  Automatically restore AUR packages
-
-  GUI wrapper or TUI version
-
-  Systemd service for scheduled backups
-
----
-    
-**📜 License**
-
-  MIT License — free to use, modify, and share.
+```bash
+chmod +x restore-arch-setup.sh
+./restore-arch-setup.sh
+```
 
 ---
 
-**✨ Author**
+## 🔐 Security Note
 
-  Made with love by Shade 💻
+⚠️ This backup may include **sensitive data** such as:
 
+* SSH private keys
+* GPG keyring
+* Wi-Fi credentials
 
+> 🔒 **Be safe!** Encrypt your backup before uploading or sharing it online.
+
+---
+
+## 💡 Future Ideas (Contributions Welcome!)
+
+* [ ] Optional encryption & compression
+* [ ] Automatic AUR package restoration
+* [ ] GUI or TUI interface
+* [ ] systemd service for scheduled backups
+
+Pull requests are welcome!
+
+---
+
+## 📜 License
+
+MIT License — free to use, modify, and distribute.
+
+---
+
+## ✨ Author
+
+Made with ❤️ by [Shade](https://github.com/shadexploit)
+
+---
